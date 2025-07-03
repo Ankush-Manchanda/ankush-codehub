@@ -27,9 +27,6 @@ body {
 
 /* Common hexagon styles */
 .hex {
-  position: relative;
-  top: 90%;
-  left: 75%;
   fill: none;
   stroke: white;
   stroke-width: 3;
@@ -38,19 +35,19 @@ body {
   animation: drawHex 2.5s ease forwards;
 }
 
+/* Inner hexagon animation counter-clockwise */
 .hex-inner {
   stroke-width: 3;
   animation: drawHexReverse 2.5s ease forwards;
 }
 
-/* Hexagon animation clockwise */
+/* Outer hexagon animation clockwise */
 @keyframes drawHex {
   to {
     stroke-dashoffset: 0;
   }
 }
 
-/* Inner hexagon animation counter-clockwise */
 @keyframes drawHexReverse {
   0% {
     stroke-dashoffset: -600;
@@ -66,22 +63,24 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 5rem;
-  font-family: "tigreal free outline";
+  font-family: "tigreal free outline", sans-serif;
   font-weight: 700;
   color: white;
   opacity: 0;
   animation: fadeInText 2.5s ease forwards;
   animation-delay: 0s;
+  pointer-events: none;
 }
 
 .splash-name {
   font-size: 5rem;
-  font-family: "Agustina Regular";
+  font-family: "Agustina Regular", sans-serif;
   color: white;
   margin-top: 2.5rem;
   opacity: 0;
   animation: fadeInText 2.5s ease forwards;
   animation-delay: 2.5s;
+  text-align: center;
 }
 
 @keyframes fadeInText {
@@ -92,5 +91,22 @@ body {
   100% {
     opacity: 1;
     transform: scale(1);
+  }
+}
+
+/* ✅ Responsive tweaks */
+@media (max-width: 768px) {
+  .hex-wrapper {
+    width: 250px;
+    height: 250px;
+  }
+
+  .am-text {
+    font-size: 3rem;
+  }
+
+  .splash-name {
+    font-size: 2.5rem;
+    margin-top: 2rem;
   }
 }
