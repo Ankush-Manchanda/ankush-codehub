@@ -59,8 +59,8 @@ body {
 
 .am-text {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 55%;
+  left: 70%;
   transform: translate(-50%, -50%);
   font-size: 5rem;
   font-family: "tigreal free outline", sans-serif;
