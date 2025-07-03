@@ -1,3 +1,8 @@
+body {
+  zoom: 1;
+  transform: scale(1);
+  overflow-x: hidden;
+}
 /* === Container === */
 .greeting-main {
   display: flex;
@@ -34,10 +39,10 @@
 
 /* === Text Styles === */
 .greeting-text {
-  font-size: 70px;
+  font-size: 3rem;
   line-height: 1.1;
   font-family: "Google Sans Bold";
-  margin-top: 80px;
+  margin-top: 2rem;
 }
 
 .greeting-nickname {
