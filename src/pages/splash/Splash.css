@@ -63,7 +63,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(calc(-50% - 30px), calc(-50% - 20px));
+  transform: translate(calc(-50% - 70px), calc(-50% - 90px));
   font-size: 5rem;
   font-family: "tigreal free outline", sans-serif;
   font-weight: 700;
