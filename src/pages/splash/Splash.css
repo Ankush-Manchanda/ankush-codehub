@@ -16,8 +16,8 @@ body {
 
 .hex-wrapper {
   position: relative;
-  width: 150px;
-  height: 150px;
+  width: 350px;
+  height: 350px;
 }
 
 .hex-svg {
@@ -65,7 +65,7 @@ body {
   top: 45%;
   left: 32%;
   transform: translate(-50%, -50%);
-  font-size: 3rem;
+  font-size: 5rem;
   font-family: "tigreal free outline";
   font-weight: 700;
   color: white;
@@ -75,7 +75,7 @@ body {
 }
 
 .splash-name {
-  font-size: 3rem;
+  font-size: 5rem;
   font-family: "Agustina Regular";
   color: white;
   margin-top: 2.5rem;
