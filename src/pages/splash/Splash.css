@@ -15,7 +15,6 @@ body {
 }
 
 .hex-wrapper {
-  position: relative;
   width: 350px;
   height: 350px;
 }
@@ -37,6 +36,7 @@ body {
 
 /* Inner hexagon animation counter-clockwise */
 .hex-inner {
+  position: relative;
   stroke-width: 3;
   animation: drawHexReverse 2.5s ease forwards;
 }
@@ -58,6 +58,7 @@ body {
 }
 
 .am-text {
+  position: absolute;
   top: 20%;
   left: 45%;
   transform: translate(-50%, -50%);
