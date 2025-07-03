@@ -63,7 +63,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(calc(-50% - 200px), calc(-50% - 290px));
+  transform: translate(calc(-50% - 50px), calc(-50% - 40px));
   font-size: 5rem;
   font-family: "tigreal free outline", sans-serif;
   font-weight: 700;
@@ -75,6 +75,7 @@ body {
   line-height: 1;
   text-align: center;
 }
+
 
 .splash-name {
   font-size: 5rem;
