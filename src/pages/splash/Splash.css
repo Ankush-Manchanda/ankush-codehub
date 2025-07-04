@@ -15,6 +15,7 @@ body {
 }
 
 .hex-wrapper {
+  position: relative;
   width: 350px;
   height: 350px;
   display: flex;
@@ -37,7 +38,6 @@ body {
 }
 
 .hex-inner {
-  position: relative;
   stroke-width: 3;
   animation: drawHexReverse 2.5s ease forwards;
 }
@@ -61,7 +61,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(calc(-50% - 50px), calc(-50% - 40px));
   font-size: 5rem;
   font-family: "tigreal free outline", sans-serif;
   font-weight: 700;
@@ -74,7 +74,7 @@ body {
   text-align: center;
 }
 
-/* Adjust name under hexagon */
+/* Splash name below hex */
 .splash-name {
   font-size: 5rem;
   font-family: "Agustina Regular", sans-serif;
@@ -106,7 +106,7 @@ body {
 
   .am-text {
     font-size: 4rem;
-    transform: translate(-50%,-50%);
+    transform: translate(calc(-50% - 30px), calc(-50% - 30px)) !important;
   }
 
   .splash-name {
@@ -122,7 +122,7 @@ body {
 
   .am-text {
     font-size: 3rem;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%) !important;
   }
 
   .splash-name {
