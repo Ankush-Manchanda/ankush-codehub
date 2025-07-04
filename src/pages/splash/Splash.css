@@ -61,8 +61,8 @@ body {
 
 .am-text {
   position: absolute;
-  top: 15%;
-  left: 40%;
+  top: 20%;
+  left: 30%;
   transform: translate(-50%, -50%);
   font-size: 6rem;
   font-family: "tigreal free outline";
@@ -77,7 +77,7 @@ body {
   font-size: 5rem;
   font-family: "Agustina Regular";
   color: white;
-  margin-top: 2.5rem;
+  margin-top: 1.5rem;
   opacity: 0;
   animation: fadeInText 2.5s ease forwards;
   animation-delay: 2.5s;
