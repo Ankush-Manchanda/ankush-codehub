@@ -16,7 +16,7 @@ body {
 }
 
 .hex-wrapper {
-  margin-top: 40px;
+  margin-top: 80px;
   width: 350px;
   height: 350px;
 }
@@ -62,7 +62,7 @@ body {
 
 .am-text {
   position: absolute;
-  top: 30%;
+  top: 27%;
   left: 43.5%;
   transform: translate(-50%, -50%);
   font-size: 6rem;
