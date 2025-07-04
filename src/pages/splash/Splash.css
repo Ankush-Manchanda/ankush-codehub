@@ -15,7 +15,6 @@ body {
 }
 
 .hex-wrapper {
-  position: relative;
   width: 350px;
   height: 350px;
 }
@@ -27,7 +26,6 @@ body {
 
 /* Common hexagon styles */
 .hex {
-  position: relative;
   top: 90%;
   left: 75%;
   fill: none;
@@ -39,6 +37,7 @@ body {
 }
 
 .hex-inner {
+  position: relative;
   stroke-width: 3;
   animation: drawHexReverse 2.5s ease forwards;
 }
