@@ -106,7 +106,7 @@ body {
 
   .am-text {
     font-size: 4rem;
-    transform: translate(calc(-50%,-50%);
+    transform: translate(-50%,-50%);
   }
 
   .splash-name {
