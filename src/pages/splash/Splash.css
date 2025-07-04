@@ -16,6 +16,7 @@ body {
 }
 
 .hex-wrapper {
+  margin-top: 20px;
   width: 350px;
   height: 350px;
 }
