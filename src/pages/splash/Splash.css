@@ -83,6 +83,13 @@ body {
   animation: fadeInText 2.5s ease forwards;
   animation-delay: 2.5s;
 }
+/* 📱 Mobile — FINAL FIX */
+@media (max-width: 768px) {
+  .am-text {
+    font-size: 3rem;
+    transform: translate(-50%, -50%);
+  }
+}
 
 @keyframes fadeInText {
   0% {
