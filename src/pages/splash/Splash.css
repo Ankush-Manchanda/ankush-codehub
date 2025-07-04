@@ -106,7 +106,7 @@ body {
 
   .am-text {
     font-size: 4rem;
-    transform: translate(calc(-50% - 30px), calc(-50% - 30px));
+    transform: translate(calc(-50% - 70px), calc(-50% - 60px));
   }
 
   .splash-name {
@@ -122,7 +122,7 @@ body {
 
   .am-text {
     font-size: 3rem;
-    transform: translate(calc(-50% - 50px), calc(-50% - 30px);
+    transform: translate(-50%,-50%);
   }
 
   .splash-name {
