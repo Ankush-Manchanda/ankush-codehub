@@ -18,9 +18,6 @@ body {
   position: relative;
   width: 350px;
   height: 350px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .hex-svg {
@@ -28,7 +25,11 @@ body {
   height: 100%;
 }
 
+/* Common hexagon styles */
 .hex {
+  position: relative;
+  top: 90%;
+  left: 75%;
   fill: none;
   stroke: white;
   stroke-width: 3;
@@ -42,12 +43,14 @@ body {
   animation: drawHexReverse 2.5s ease forwards;
 }
 
+/* Hexagon animation clockwise */
 @keyframes drawHex {
   to {
     stroke-dashoffset: 0;
   }
 }
 
+/* Inner hexagon animation counter-clockwise */
 @keyframes drawHexReverse {
   0% {
     stroke-dashoffset: -600;
@@ -59,31 +62,26 @@ body {
 
 .am-text {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(calc(-50% - 50px), calc(-50% - 40px));
+  top: 45%;
+  left: 32%;
+  transform: translate(-50%, -50%);
   font-size: 5rem;
-  font-family: "tigreal free outline", sans-serif;
+  font-family: "tigreal free outline";
   font-weight: 700;
   color: white;
   opacity: 0;
   animation: fadeInText 2.5s ease forwards;
   animation-delay: 0s;
-  pointer-events: none;
-  line-height: 1;
-  text-align: center;
 }
 
-/* Splash name below hex */
 .splash-name {
   font-size: 5rem;
-  font-family: "Agustina Regular", sans-serif;
+  font-family: "Agustina Regular";
   color: white;
   margin-top: 2.5rem;
   opacity: 0;
   animation: fadeInText 2.5s ease forwards;
   animation-delay: 2.5s;
-  text-align: center;
 }
 
 @keyframes fadeInText {
@@ -94,39 +92,5 @@ body {
   100% {
     opacity: 1;
     transform: scale(1);
-  }
-}
-
-/* ✅ Responsive adjustments */
-@media (max-width: 1024px) {
-  .hex-wrapper {
-    width: 300px;
-    height: 300px;
-  }
-
-  .am-text {
-    font-size: 4rem;
-    transform: translate(calc(-50% - 30px), calc(-50% - 30px)) !important;
-  }
-
-  .splash-name {
-    font-size: 4rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .hex-wrapper {
-    width: 220px;
-    height: 220px;
-  }
-
-  .am-text {
-    font-size: 3rem;
-    transform: translate(-50%, -50%) !important;
-  }
-
-  .splash-name {
-    font-size: 2.5rem;
-    margin-top: 1.5rem;
   }
 }
