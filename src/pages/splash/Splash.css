@@ -86,8 +86,9 @@ body {
 /* 📱 Mobile — FINAL FIX */
 @media (max-width: 768px) {
   .am-text {
-    font-size: 6rem;
-    transform: translate(-50%, -60%);
+    font-size: 8rem;
+    font-family: "tigreal free outline";
+    transform: translate(-70%, -50%);
   }
   .splash-name {
     font-size: 4 rem;
