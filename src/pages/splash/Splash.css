@@ -86,8 +86,6 @@ body {
 /* 📱 Mobile — FINAL FIX */
 @media (max-width: 768px) {
   .am-text {
-    position: absolute;
-    top: 65%;
     font-size: 3rem;
     transform: translate(-50%, -50%);
   }
