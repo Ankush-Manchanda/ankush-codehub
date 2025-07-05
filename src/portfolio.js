@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "\nB.Tech CSE (AI & ML) student passionate about real-time analytics, AI projects, and full-stack web development.",
   resumeLink:
-    "Ankush-CV.pdf",
+    "https://drive.google.com/file/d/17KEmqhGjSNzYb71yhncScvo0ffIcgSf4/view?usp=sharing",
   portfolio_repository: "https://github.com/ankush-manchanda",
   githubProfile: "https://github.com/ankush-manchanda",
 };
@@ -177,7 +177,7 @@ const certifications = {
       subtitle: "- IBM SkillsBuild & CSRBOX",
       logo_path: "ibm_logo.png",
       certificate_link:
-        "IBM.pdf",
+        "https://drive.google.com/file/d/1nAH77exKWMuYSa5eD_wMttN209jwb_Jt/view?usp=sharing",
       alt_name: "IBM",
       color_code: "#1F70C199",
     },
@@ -186,7 +186,7 @@ const certifications = {
       subtitle: "- Walmart Global Tech (Forage)",
       logo_path: "walmart.jpeg",
       certificate_link:
-        "walmart.pdf",
+        "https://drive.google.com/file/d/1bgOM3BpKDqgzhAMrCp48jXYuHnFAy2jO/view?usp=sharing",
       alt_name: "Walmart",
       color_code: "#FFD50099",
     },
@@ -195,7 +195,7 @@ const certifications = {
       subtitle: "- Citi (Forage)",
       logo_path: "citi.jpeg",
       certificate_link:
-        "citi.pdf",
+        "https://drive.google.com/file/d/175ckRx9gOuNBSLiudXOFWfOCc4JyTvjW/view?usp=sharing",
       alt_name: "Citi",
       color_code: "#003B71",
     },
