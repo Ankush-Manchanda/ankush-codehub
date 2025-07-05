@@ -86,8 +86,8 @@ body {
 /* 📱 Mobile — FINAL FIX */
 @media (max-width: 768px) {
   .am-text {
-    font-size: 3rem;
-    transform: translate(-50%, -50%);
+    font-size: 6rem;
+    transform: translate(-50%, -60%);
   }
   .splash-name {
     font-size: 4 rem;
