@@ -91,6 +91,7 @@ body {
   }
   .splash-name {
     font-size: 4 rem;
+  }
 }
 
 @keyframes fadeInText {
